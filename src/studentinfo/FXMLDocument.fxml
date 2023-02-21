@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600" prefWidth="600" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentinfo.FXMLDocumentController">
+ 
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="ID" layoutX="104.0" layoutY="65.0" />
+      <TextField fx:id="name" layoutX="106.0" layoutY="104.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="grade" layoutX="106.0" layoutY="150.0" />
+      <Button fx:id="button1" layoutX="23.0" layoutY="242.0" mnemonicParsing="false" onAction="#Cancel" text="Cancel" />
+      <Button fx:id="button2" layoutX="135.0" layoutY="242.0" mnemonicParsing="false" onAction="#Save" text="Save" />
+      <Button fx:id="button3" layoutX="267.0" layoutY="242.0" mnemonicParsing="false" onAction="#View" text="View" />
+      <Label fx:id="l1" layoutX="47.0" layoutY="69.0" text="ID" />
+      <Label fx:id="l2" layoutX="47.0" layoutY="108.0" text="Name" />
+      <Label fx:id="l3" layoutX="47.0" layoutY="154.0" text="Grade" />
+      <Label layoutX="101.0" layoutY="30.0" prefHeight="17.0" prefWidth="160.0" text="Student Detail" />
+      
+    </children>
+</AnchorPane>
